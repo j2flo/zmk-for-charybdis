@@ -12,13 +12,13 @@
 
 / {
     combos {
-    compatible = "zmk,combos";
-    combo_studio_unlock {
-        timeout-ms = <100>;
-        key-positions = <0 1>;
-        bindings = <&studio_unlock>;
+        compatible = "zmk,combos";
+        combo_studio_unlock {
+            timeout-ms = <100>;
+            key-positions = <0 1>;
+            bindings = <&studio_unlock>;
+        };
     };
-};
 
     keymap {
         compatible = "zmk,keymap";
